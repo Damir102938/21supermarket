@@ -1,0 +1,6 @@
+{% extends "shop/base.html" %}
+{% block title %}Page not found{% endblock %}
+{% block content %}
+  <h1>Page not found</h1>
+  <p>Page with address {{ request.build_absolute_uri }} does not exist!</p>
+{% endblock %}
